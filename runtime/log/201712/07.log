@@ -1,0 +1,3342 @@
+---------------------------------------------------------------
+[ 2017-12-07T08:32:46+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：14.378822s][吞吐率：0.07req/s] [内存消耗：2,632.55kb] [文件加载：131]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T08:32:59+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.572147s][吞吐率：0.39req/s] [内存消耗：2,421.99kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.993057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.134007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.092006s ]
+---------------------------------------------------------------
+[ 2017-12-07T08:36:02+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.461083s][吞吐率：0.68req/s] [内存消耗：2,424.04kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.106063s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.160009s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.154009s ]
+---------------------------------------------------------------
+[ 2017-12-07T08:36:13+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.405081s][吞吐率：0.71req/s] [内存消耗：2,424.96kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '19635',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIFMegnGf9AcNwu2l',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'abstract' => '',
+  'title' => '',
+  'content' => '',
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.181068s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.096005s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.091005s ]
+---------------------------------------------------------------
+[ 2017-12-07T08:37:26+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.938168s][吞吐率：0.34req/s] [内存消耗：3,464.05kb] [文件加载：142]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.158066s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `create_time` , `update_time`) VALUES ('娄' , '2017-12-07 08:37:25' , '2017-12-07 08:37:25') [ RunTime:0.144008s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `create_time` , `update_time`) VALUES ('安徒生童话不骗人' , '2017-12-07 08:37:25' , '2017-12-07 08:37:25') [ RunTime:0.121007s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `create_time` , `update_time`) VALUES ('江' , '2017-12-07 08:37:26' , '2017-12-07 08:37:26') [ RunTime:0.074004s ]
+---------------------------------------------------------------
+[ 2017-12-07T08:38:14+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：1.934111s][吞吐率：0.52req/s] [内存消耗：3,463.02kb] [文件加载：142]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.100006s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `create_time` , `update_time`) VALUES ('娄' , '2017-12-07 08:38:14' , '2017-12-07 08:38:14') [ RunTime:0.185010s ]
+---------------------------------------------------------------
+[ 2017-12-07T08:41:38+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：4.350248s][吞吐率：0.23req/s] [内存消耗：2,682.63kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]cURL error 7: Failed to connect to api.weixin.qq.com port 443: Timed out (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)[G:\php study\WWW\thinkphp\thinkphp\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:186]
+---------------------------------------------------------------
+[ 2017-12-07T08:42:08+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.817161s][吞吐率：0.35req/s] [内存消耗：3,466.95kb] [文件加载：142]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.409081s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.099005s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `openid` , `city` , `create_time` , `update_time`) VALUES ('娄' , 'oBn-tw7QR4Ps3DaObmtU69XSxpno' , '' , '2017-12-07 08:42:07' , '2017-12-07 08:42:07') [ RunTime:0.199012s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `openid` , `city` , `create_time` , `update_time`) VALUES ('安徒生童话不骗人' , 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' , '河北邢台' , '2017-12-07 08:42:07' , '2017-12-07 08:42:07') [ RunTime:0.077005s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `openid` , `city` , `create_time` , `update_time`) VALUES ('江' , 'oBn-tw4I8G1yjNErx-28J0z_DYBo' , '河北邯郸' , '2017-12-07 08:42:08' , '2017-12-07 08:42:08') [ RunTime:0.082005s ]
+---------------------------------------------------------------
+[ 2017-12-07T08:43:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,371.16kb] [文件加载：47]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'continue' (T_CONTINUE)[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php:47]
+---------------------------------------------------------------
+[ 2017-12-07T08:43:57+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：0.946054s][吞吐率：1.06req/s] [内存消耗：3,413.20kb] [文件加载：141]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T08:45:15+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：0.922053s][吞吐率：1.08req/s] [内存消耗：3,413.20kb] [文件加载：141]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T08:57:20+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,371.22kb] [文件加载：47]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION)[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php:65]
+---------------------------------------------------------------
+[ 2017-12-07T08:58:10+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,371.22kb] [文件加载：47]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION)[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php:65]
+---------------------------------------------------------------
+[ 2017-12-07T08:58:34+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：0.978056s][吞吐率：1.02req/s] [内存消耗：3,414.23kb] [文件加载：141]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T09:02:48+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：5.086291s][吞吐率：0.20req/s] [内存消耗：2,683.79kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]cURL error 28: Operation timed out after 5008 milliseconds with 0 out of 0 bytes received (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)[G:\php study\WWW\thinkphp\thinkphp\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:186]
+---------------------------------------------------------------
+[ 2017-12-07T09:03:39+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：5.083291s][吞吐率：0.20req/s] [内存消耗：2,683.73kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]cURL error 28: Operation timed out after 5007 milliseconds with 0 bytes received (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)[G:\php study\WWW\thinkphp\thinkphp\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:186]
+---------------------------------------------------------------
+[ 2017-12-07T09:04:11+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：0.954055s][吞吐率：1.05req/s] [内存消耗：3,414.23kb] [文件加载：141]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T09:04:46+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/material
+[ info ] 127.0.0.1:86/admin/news/material [运行时间：0.136007s][吞吐率：7.35req/s] [内存消耗：2,222.95kb] [文件加载：105]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'material',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->material[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\material.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T09:04:50+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：1.041060s][吞吐率：0.96req/s] [内存消耗：3,413.82kb] [文件加载：141]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/material',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T09:06:45+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：0.529031s][吞吐率：1.89req/s] [内存消耗：3,448.66kb] [文件加载：144]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/material',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method EasyWeChat\Support\Collection::where()[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php:42]
+---------------------------------------------------------------
+[ 2017-12-07T09:07:00+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：1.939111s][吞吐率：0.52req/s] [内存消耗：3,450.40kb] [文件加载：140]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/material',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.075061s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.166010s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.160009s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:07:29+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.552146s][吞吐率：0.39req/s] [内存消耗：3,466.64kb] [文件加载：142]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/material',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.121064s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.165010s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.158009s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.154009s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `openid` , `city` , `create_time` , `update_time`) VALUES ('安徒生童话不骗人' , 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' , '河北邢台' , '2017-12-07 09:07:28' , '2017-12-07 09:07:28') [ RunTime:0.240014s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:11:28+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.256072s][吞吐率：0.80req/s] [内存消耗：2,421.99kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/material',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.025058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.097005s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.093005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:11:29+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.514086s][吞吐率：0.66req/s] [内存消耗：2,484.26kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/material',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.043059s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.123007s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.117007s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.116007s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:13:31+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：3.716213s][吞吐率：0.27req/s] [内存消耗：3,536.50kb] [文件加载：145]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.398138s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.098005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089006s ]
+[ error ] [0]致命错误: Class 'app\admin\controller\News' not found[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php:54]
+---------------------------------------------------------------
+[ 2017-12-07T09:14:00+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：3.400194s][吞吐率：0.29req/s] [内存消耗：3,744.27kb] [文件加载：152]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.755101s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.118007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.109006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.110006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.114006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.107006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.109006s ]
+[ error ] [8]未定义变量: userlist[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\cd03591b71b656121609fb419788d16c.php:110]
+---------------------------------------------------------------
+[ 2017-12-07T09:15:53+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.779159s][吞吐率：0.36req/s] [内存消耗：3,619.96kb] [文件加载：150]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.054061s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.126007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.120007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.126008s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.128007s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.126007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.130008s ]
+[ error ] [8]未定义变量: userlist[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\cd03591b71b656121609fb419788d16c.php:110]
+---------------------------------------------------------------
+[ 2017-12-07T09:17:46+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.747157s][吞吐率：0.36req/s] [内存消耗：3,619.96kb] [文件加载：150]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.075061s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.125007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.120007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.115007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.111006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.116007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.116006s ]
+[ error ] [8]未定义变量: userlist[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\cd03591b71b656121609fb419788d16c.php:110]
+---------------------------------------------------------------
+[ 2017-12-07T09:20:11+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.996171s][吞吐率：0.33req/s] [内存消耗：3,706.63kb] [文件加载：148]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.077061s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.168010s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.165009s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.155009s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.160009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.151009s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.156009s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:23:48+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.680154s][吞吐率：0.37req/s] [内存消耗：3,707.50kb] [文件加载：148]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.177067s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.086005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:25:48+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.462141s][吞吐率：0.41req/s] [内存消耗：3,707.44kb] [文件加载：148]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.973056s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.088005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:25:56+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist?page=2
+[ info ] 127.0.0.1:86/admin/user/userlist?page=2 [运行时间：2.906166s][吞吐率：0.34req/s] [内存消耗：3,580.98kb] [文件加载：146]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.447083s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.097005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.091006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 2,2 [ RunTime:0.090006s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:26:01+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist?page=1
+[ info ] 127.0.0.1:86/admin/user/userlist?page=1 [运行时间：2.731157s][吞吐率：0.37req/s] [内存消耗：3,582.48kb] [文件加载：146]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.042060s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.121007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.114006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.114006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.107006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.107006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.106006s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:26:50+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist?page=1
+[ info ] 127.0.0.1:86/admin/user/userlist?page=1 [运行时间：2.418139s][吞吐率：0.41req/s] [内存消耗：3,708.44kb] [文件加载：148]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.990056s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.096006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.089005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:27:46+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist?page=1
+[ info ] 127.0.0.1:86/admin/user/userlist?page=1 [运行时间：2.811161s][吞吐率：0.36req/s] [内存消耗：3,708.59kb] [文件加载：148]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.221069s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.114007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.109006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.108006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.105006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.107007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.107006s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:31:16+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.362135s][吞吐率：0.42req/s] [内存消耗：3,466.45kb] [文件加载：142]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist?page=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.168067s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.205012s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.202011s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `openid` , `city` , `create_time` , `update_time`) VALUES ('娄' , 'oBn-tw7QR4Ps3DaObmtU69XSxpno' , '' , '2017-12-07 09:31:16' , '2017-12-07 09:31:16') [ RunTime:0.266016s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:31:31+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.960170s][吞吐率：0.34req/s] [内存消耗：3,585.51kb] [文件加载：146]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist?page=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.112006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.102006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.100006s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `openid` , `city` , `create_time` , `update_time`) VALUES ('安徒生童话不骗人' , 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' , '邢台' , '2017-12-07 09:31:30' , '2017-12-07 09:31:30') [ RunTime:0.198011s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.099006s ]
+[ sql ] [ SQL ] INSERT INTO `userlist` (`nickname` , `openid` , `city` , `create_time` , `update_time`) VALUES ('江' , 'oBn-tw4I8G1yjNErx-28J0z_DYBo' , '邯郸' , '2017-12-07 09:31:31' , '2017-12-07 09:31:31') [ RunTime:0.196011s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.100006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.099005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:31:41+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist?page=2
+[ info ] 127.0.0.1:86/admin/user/userlist?page=2 [运行时间：2.484142s][吞吐率：0.40req/s] [内存消耗：3,580.65kb] [文件加载：146]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.001058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.096005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.094006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 2,2 [ RunTime:0.089005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:31:46+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist?page=1
+[ info ] 127.0.0.1:86/admin/user/userlist?page=1 [运行时间：3.047174s][吞吐率：0.33req/s] [内存消耗：3,582.19kb] [文件加载：146]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.134065s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.175010s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.171010s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.167009s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.157009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.154009s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.158009s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:31:58+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.511144s][吞吐率：0.40req/s] [内存消耗：3,581.70kb] [文件加载：146]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist?page=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.030059s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.101006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.095006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.095006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.093005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.094006s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:38:31+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.278073s][吞吐率：0.78req/s] [内存消耗：2,420.45kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.011058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.101006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.096005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:38:50+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.826105s][吞吐率：0.55req/s] [内存消耗：2,421.99kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.369079s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.211012s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.208012s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:45:07+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：3.898223s][吞吐率：0.26req/s] [内存消耗：3,582.44kb] [文件加载：146]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.898109s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.164009s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.163010s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.164010s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.159009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.169009s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.175010s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:48:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.846162s][吞吐率：0.35req/s] [内存消耗：2,421.99kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.602149s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.104006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.098005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:48:30+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/material
+[ info ] 127.0.0.1:86/admin/news/material [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,106.02kb] [文件加载：103]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'material',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->material[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\material.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T09:48:35+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.305075s][吞吐率：0.77req/s] [内存消耗：2,421.99kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/material',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.075062s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.093005s ]
+---------------------------------------------------------------
+[ 2017-12-07T09:58:07+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：2.568147s][吞吐率：0.39req/s] [内存消耗：3,582.44kb] [文件加载：146]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\user\userlist.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.091006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE `userlist`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.090005s ]
+---------------------------------------------------------------
+[ 2017-12-07T10:01:06+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.741100s][吞吐率：0.57req/s] [内存消耗：2,421.99kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/user/userlist',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.221070s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.242014s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.237013s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:13:03+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,674.55kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T11:13:05+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,549.72kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T11:13:13+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：3.797217s][吞吐率：0.26req/s] [内存消耗：2,484.39kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.131179s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.215012s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.204012s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.208012s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:13:13+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/material
+[ info ] 127.0.0.1:86/admin/news/material [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,106.16kb] [文件加载：103]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'material',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->material[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\material.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T11:13:13+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/material
+[ info ] 127.0.0.1:86/admin/news/material [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,106.16kb] [文件加载：103]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'material',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->material[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\material.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T11:13:23+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：3.704212s][吞吐率：0.27req/s] [内存消耗：2,559.25kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/material',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.427196s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.121007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.116007s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:13:37+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：3.039174s][吞吐率：0.33req/s] [内存消耗：2,420.45kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.797160s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.113006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.091005s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:13:48+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.236070s][吞吐率：0.81req/s] [内存消耗：2,422.15kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.010057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.091005s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:17:02+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,549.59kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T11:17:13+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.164123s][吞吐率：0.46req/s] [内存消耗：2,484.39kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.821105s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.107006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.100005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.101006s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:17:15+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.114120s][吞吐率：0.47req/s] [内存消耗：2,484.39kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.793103s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.094005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.090005s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:17:17+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.151123s][吞吐率：0.46req/s] [内存消耗：2,484.39kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.454084s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.212012s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.218012s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.230013s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:17:21+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：4.226242s][吞吐率：0.24req/s] [内存消耗：3,506.40kb] [文件加载：142]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.612149s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.111007s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.105006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.104006s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.102005s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:17:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/user/userlist
+[ info ] 127.0.0.1:86/admin/user/userlist [运行时间：3.896223s][吞吐率：0.26req/s] [内存消耗：3,502.21kb] [文件加载：142]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\UserController->userlist[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\UserController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.992114s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `userlist` [ RunTime:0.240014s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw7QR4Ps3DaObmtU69XSxpno' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.227013s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw2y5KnCjzAa7RBTzGkZi_O0' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.228013s ]
+[ sql ] [ SQL ] SELECT * FROM `userlist` WHERE (  `openid` = 'oBn-tw4I8G1yjNErx-28J0z_DYBo' ) AND `userlist`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.212013s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:17:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/material
+[ info ] 127.0.0.1:86/admin/news/material [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,106.16kb] [文件加载：103]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'material',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->material[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\material.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T11:17:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/material
+[ info ] 127.0.0.1:86/admin/news/material [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,106.16kb] [文件加载：103]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'material',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->material[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\material.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-07T11:17:29+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：3.311190s][吞吐率：0.30req/s] [内存消耗：2,422.28kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.831162s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.225013s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.224012s ]
+---------------------------------------------------------------
+[ 2017-12-07T11:17:30+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.233070s][吞吐率：0.81req/s] [内存消耗：2,422.28kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.092005s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:08:03+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：6.061347s][吞吐率：0.16req/s] [内存消耗：2,559.91kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:5.825333s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.100006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.095005s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:10:27+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.270073s][吞吐率：0.79req/s] [内存消耗：2,559.98kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.028059s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.103006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.098005s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:11:48+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：5.920339s][吞吐率：0.17req/s] [内存消耗：2,544.91kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:5.633323s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.129007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.117007s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:28:08+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.888108s][吞吐率：0.53req/s] [内存消耗：2,559.44kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.272073s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.289016s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.279016s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:39:59+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.653152s][吞吐率：0.38req/s] [内存消耗：2,423.22kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '19738',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7A8xeI1JvT2MXqVf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'abstract' => '',
+  'title' => '',
+  'content' => '',
+  'submit' => '本地上传',
+  'mediaid' => 'undefined',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.053117s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.283017s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.279016s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:40:05+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.208069s][吞吐率：0.83req/s] [内存消耗：2,419.85kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.983057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.097005s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.092005s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:40:09+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.437082s][吞吐率：0.70req/s] [内存消耗：2,421.86kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.208070s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.099005s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.093006s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:44:21+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.966169s][吞吐率：0.34req/s] [内存消耗：2,559.43kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.428139s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.244014s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.251014s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:45:45+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.229070s][吞吐率：0.81req/s] [内存消耗：2,559.93kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.090005s ]
+---------------------------------------------------------------
+[ 2017-12-07T14:46:32+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.463084s][吞吐率：0.68req/s] [内存消耗：2,559.93kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.201068s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.112007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.105006s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:12:53+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.137122s][吞吐率：0.47req/s] [内存消耗：2,560.05kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.592091s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.245014s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.257014s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:13:34+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.867106s][吞吐率：0.54req/s] [内存消耗：2,560.12kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.268072s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.279016s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.276016s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:15:07+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.253072s][吞吐率：0.80req/s] [内存消耗：2,559.21kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.107006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.102006s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:15:15+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.220070s][吞吐率：0.82req/s] [内存消耗：2,421.64kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.993056s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.097005s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.091005s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:15:49+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.831104s][吞吐率：0.55req/s] [内存消耗：2,559.21kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.242072s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.270015s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.279016s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:16:22+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.340077s][吞吐率：0.75req/s] [内存消耗：2,559.21kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.044060s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.128007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.122007s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:16:48+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.842106s][吞吐率：0.54req/s] [内存消耗：2,559.15kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.258072s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.271016s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.273015s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:17:37+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.001115s][吞吐率：0.50req/s] [内存消耗：2,559.15kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.418081s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.271015s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.268015s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:18:01+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.213069s][吞吐率：0.82req/s] [内存消耗：2,559.15kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.981056s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.094006s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:33:23+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.550089s][吞吐率：0.65req/s] [内存消耗：2,558.74kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.294074s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.109007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.104006s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:48:38+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.901166s][吞吐率：0.34req/s] [内存消耗：2,558.99kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.634150s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.114007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.107006s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:48:42+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：3.354191s][吞吐率：0.30req/s] [内存消耗：2,421.83kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.821161s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.246014s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.248014s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:48:44+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.665152s][吞吐率：0.38req/s] [内存消耗：2,421.83kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.058117s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.289016s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.277016s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:53:41+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.811103s][吞吐率：0.55req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.228070s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.266015s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.264015s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:55:54+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.321075s][吞吐率：0.76req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.046060s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.115007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.109006s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:56:08+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.217070s][吞吐率：0.82req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.980056s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.099005s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.093006s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:56:46+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.234071s][吞吐率：0.81req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.000057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.096005s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.091006s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:57:07+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：2.474142s][吞吐率：0.40req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.850106s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.289017s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.289016s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:57:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.276073s][吞吐率：0.78req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.036059s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.095005s ]
+---------------------------------------------------------------
+[ 2017-12-07T15:58:16+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.326076s][吞吐率：0.75req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.039059s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.121007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.114006s ]
+---------------------------------------------------------------
+[ 2017-12-07T16:00:15+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.236071s][吞吐率：0.81req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.994057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.100006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.093005s ]
+---------------------------------------------------------------
+[ 2017-12-07T17:06:10+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：1.243071s][吞吐率：0.80req/s] [内存消耗：2,559.46kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.989057s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.103006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.097005s ]

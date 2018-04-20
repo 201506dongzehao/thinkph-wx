@@ -1,0 +1,2182 @@
+---------------------------------------------------------------
+[ 2017-12-04T08:17:19+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：3.491200s][吞吐率：0.29req/s] [内存消耗：2,632.55kb] [文件加载：131]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:18:06+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：1,552.01kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:19:51+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：1,574.55kb] [文件加载：53]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIKkavn7RZCaojMjg',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]Class app\admin\controller\Request does not exist[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\App.php:260]
+---------------------------------------------------------------
+[ 2017-12-04T08:23:08+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：1,580.60kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIKkavn7RZCaojMjg',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:23:27+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,546.45kb] [文件加载：51]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIKkavn7RZCaojMjg',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:42:36+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,552.78kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:42:41+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.654037s][吞吐率：1.53req/s] [内存消耗：2,292.32kb] [文件加载：59]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZG4utW6yVTrzwcCX',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:43:51+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,552.33kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:43:56+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,616.99kb] [文件加载：56]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvMdzapYI0J1owBa5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]hash_file(): Unknown hashing algorithm: save[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\File.php:104]
+---------------------------------------------------------------
+[ 2017-12-04T08:44:31+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,552.53kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:44:36+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：1.320075s][吞吐率：0.76req/s] [内存消耗：2,397.73kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHLOkcvCgpuAzGKJO',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.000058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.127007s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`image` , `create_time` , `update_time`) VALUES ('����\0JFIF\0\0\0\0\0\0��\0C\0		\n' , '2017-12-04 08:44:36' , '2017-12-04 08:44:36') [ RunTime:0.159009s ]
+---------------------------------------------------------------
+[ 2017-12-04T08:45:15+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,314.70kb] [文件加载：60]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHLOkcvCgpuAzGKJO',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:46:09+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,382.44kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHLOkcvCgpuAzGKJO',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Cannot use object of type think\File as array[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php:106]
+---------------------------------------------------------------
+[ 2017-12-04T08:47:50+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,552.25kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:47:56+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：2.025116s][吞吐率：0.49req/s] [内存消耗：2,360.48kb] [文件加载：61]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryt28lApMfI5gHKAN9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.728099s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`image` , `create_time` , `update_time`) VALUES (NULL , '2017-12-04 08:47:56' , '2017-12-04 08:47:56') [ RunTime:0.161009s ]
+---------------------------------------------------------------
+[ 2017-12-04T08:48:26+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,276.76kb] [文件加载：59]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryt28lApMfI5gHKAN9',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:49:24+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：2,276.78kb] [文件加载：59]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryt28lApMfI5gHKAN9',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:49:26+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：1,677.43kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:49:33+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,276.78kb] [文件加载：59]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary69txfVI5l5172NNj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:51:47+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,310.98kb] [文件加载：60]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary69txfVI5l5172NNj',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:52:08+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,276.13kb] [文件加载：59]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary69txfVI5l5172NNj',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:53:11+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,382.44kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary69txfVI5l5172NNj',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Cannot use object of type think\File as array[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php:106]
+---------------------------------------------------------------
+[ 2017-12-04T08:53:14+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,552.75kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:53:21+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,552.59kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:53:25+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,347.43kb] [文件加载：61]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPYfn2gbpcIUodtrf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:53:50+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：2,369.71kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPYfn2gbpcIUodtrf',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:58:28+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：2,378.08kb] [文件加载：63]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPYfn2gbpcIUodtrf',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2017-12-04T08:58:54+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,314.50kb] [文件加载：60]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPYfn2gbpcIUodtrf',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:59:14+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：2,314.50kb] [文件加载：60]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPYfn2gbpcIUodtrf',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T08:59:30+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：1.923110s][吞吐率：0.52req/s] [内存消耗：2,397.44kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPYfn2gbpcIUodtrf',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.249072s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.281016s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`image` , `create_time` , `update_time`) VALUES ('978-9.jpg' , '2017-12-04 08:59:30' , '2017-12-04 08:59:30') [ RunTime:0.353020s ]
+---------------------------------------------------------------
+[ 2017-12-04T09:24:23+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：1.281074s][吞吐率：0.78req/s] [内存消耗：2,425.53kb] [文件加载：63]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryT9omAMVoUPGT0nPd',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016059s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.115006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.110007s ]
+[ error ] [0]variable type error： array[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2017-12-04T09:24:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.033001s][吞吐率：30.30req/s] [内存消耗：1,697.52kb] [文件加载：57]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\template\taglib\Cx.php:84]
+---------------------------------------------------------------
+[ 2017-12-04T09:24:28+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,697.12kb] [文件加载：57]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\template\taglib\Cx.php:84]
+---------------------------------------------------------------
+[ 2017-12-04T09:24:41+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,697.52kb] [文件加载：57]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\template\taglib\Cx.php:84]
+---------------------------------------------------------------
+[ 2017-12-04T09:24:43+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,073.53kb] [文件加载：102]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T09:24:44+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,697.12kb] [文件加载：57]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: id[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\template\taglib\Cx.php:84]
+---------------------------------------------------------------
+[ 2017-12-04T09:24:56+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,677.44kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T09:24:58+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：1.305074s][吞吐率：0.77req/s] [内存消耗：2,425.53kb] [文件加载：63]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '294',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5J3wJcjZnNd7ojl9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.041059s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.115007s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.110006s ]
+[ error ] [0]variable type error： array[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\Response.php:318]
+---------------------------------------------------------------
+[ 2017-12-04T09:29:22+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,346.64kb] [文件加载：63]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '294',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5J3wJcjZnNd7ojl9',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getInfo() on null[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php:106]
+---------------------------------------------------------------
+[ 2017-12-04T09:29:57+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：2,346.64kb] [文件加载：63]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '294',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5J3wJcjZnNd7ojl9',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getInfo() on null[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php:106]
+---------------------------------------------------------------
+[ 2017-12-04T09:31:19+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,346.64kb] [文件加载：63]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '294',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5J3wJcjZnNd7ojl9',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to a member function getInfo() on null[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php:106]
+---------------------------------------------------------------
+[ 2017-12-04T09:31:20+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：1,714.81kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: image[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\92968d5576b3659c2a9b0a70d38b3a7b.php:106]
+---------------------------------------------------------------
+[ 2017-12-04T09:32:05+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.792102s][吞吐率：0.56req/s] [内存消耗：2,405.20kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.234070s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.266015s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.254015s ]
+---------------------------------------------------------------
+[ 2017-12-04T09:32:12+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：2.224128s][吞吐率：0.45req/s] [内存消耗：2,397.77kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '60575',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8AY5JJa1986BSZYw',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.234071s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.267015s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`image` , `create_time` , `update_time`) VALUES ('yc.jpg' , '2017-12-04 09:32:11' , '2017-12-04 09:32:11') [ RunTime:0.687039s ]
+---------------------------------------------------------------
+[ 2017-12-04T09:32:20+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.408080s][吞吐率：0.71req/s] [内存消耗：2,406.47kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.182067s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.093005s ]
+---------------------------------------------------------------
+[ 2017-12-04T09:34:04+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：2.207127s][吞吐率：0.45req/s] [内存消耗：2,406.84kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.993114s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.091006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.086004s ]
+---------------------------------------------------------------
+[ 2017-12-04T09:35:36+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.418081s][吞吐率：0.71req/s] [内存消耗：2,531.95kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.183067s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.093005s ]
+---------------------------------------------------------------
+[ 2017-12-04T10:47:43+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.778102s][吞吐率：0.56req/s] [内存消耗：2,407.14kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.261072s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.245014s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.232013s ]
+---------------------------------------------------------------
+[ 2017-12-04T10:47:47+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：1,547.70kb] [文件加载：51]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLcYU4BDWITSrgIBV',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T10:48:40+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,547.39kb] [文件加载：51]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLcYU4BDWITSrgIBV',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T10:49:49+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,547.70kb] [文件加载：51]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLcYU4BDWITSrgIBV',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T10:52:01+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：2.298131s][吞吐率：0.44req/s] [内存消耗：2,407.10kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.045117s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.109006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.103006s ]
+---------------------------------------------------------------
+[ 2017-12-04T10:52:06+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：1.410081s][吞吐率：0.71req/s] [内存消耗：2,403.32kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '173214',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjLlIPNQMQyqhEXcA',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`image` , `create_time` , `update_time`) VALUES ('978-9.jpg' , '2017-12-04 10:52:06' , '2017-12-04 10:52:06') [ RunTime:0.194011s ]
+---------------------------------------------------------------
+[ 2017-12-04T10:52:10+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.380079s][吞吐率：0.72req/s] [内存消耗：2,407.94kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/upload',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.153066s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.092005s ]
+---------------------------------------------------------------
+[ 2017-12-04T14:08:45+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：1.655095s][吞吐率：0.60req/s] [内存消耗：2,403.29kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '60575',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvWlpj19rx6JMXZk9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.336077s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.095005s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`image` , `create_time` , `update_time`) VALUES ('yc.jpg' , '2017-12-04 14:08:45' , '2017-12-04 14:08:45') [ RunTime:0.177010s ]
+---------------------------------------------------------------
+[ 2017-12-04T14:08:50+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.950112s][吞吐率：0.51req/s] [内存消耗：2,409.22kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/upload',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.318076s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.297017s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.299017s ]
+---------------------------------------------------------------
+[ 2017-12-04T14:09:32+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,547.70kb] [文件加载：51]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '853769',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryToFg27bAGcWYnHhD',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T14:10:53+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/news/upload
+[ info ] 127.0.0.1:86/admin/news/upload [运行时间：1.311075s][吞吐率：0.76req/s] [内存消耗：2,403.55kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '853769',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUVVfptTsTK2llDZb',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'submit' => '本地上传',
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->upload[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.976056s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.098005s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`image` , `create_time` , `update_time`) VALUES ('uploads\\20171204\\7e85a6120d3177965727bbfb07aafa33.jpg' , '2017-12-04 14:10:53' , '2017-12-04 14:10:53') [ RunTime:0.193012s ]
+---------------------------------------------------------------
+[ 2017-12-04T14:10:59+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：3.185182s][吞吐率：0.31req/s] [内存消耗：2,410.54kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/upload',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.941168s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.107006s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.100006s ]
+---------------------------------------------------------------
+[ 2017-12-04T15:40:55+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,549.59kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T15:41:01+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.491085s][吞吐率：0.67req/s] [内存消耗：2,480.03kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.020058s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.116007s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.109006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.110006s ]
+---------------------------------------------------------------
+[ 2017-12-04T15:41:01+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,553.26kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T15:41:05+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.343134s][吞吐率：0.43req/s] [内存消耗：2,479.90kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.467084s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.276015s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.283016s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.277016s ]
+---------------------------------------------------------------
+[ 2017-12-04T15:41:07+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/newstext
+[ info ] 127.0.0.1:86/admin/news/newstext [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,553.26kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'newstext',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->newstext[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\newstext.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-04T15:41:17+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/photos
+[ info ] 127.0.0.1:86/admin/news/photos [运行时间：1.824105s][吞吐率：0.55req/s] [内存消耗：2,410.54kb] [文件加载：62]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'photos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/newstext',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->photos[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\photos.html [ array (
+  0 => 'image',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.260072s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.275016s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE `image`.`delete_time` IS NULL [ RunTime:0.252014s ]
+---------------------------------------------------------------
+[ 2017-12-04T16:09:12+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,549.59kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/photos',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,3209 @@
+---------------------------------------------------------------
+[ 2017-11-27T08:14:04+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：1.413080s][吞吐率：0.71req/s] [内存消耗：2,411.80kb] [文件加载：104]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Invalid request.[G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Server\Guard.php:346]
+---------------------------------------------------------------
+[ 2017-11-27T08:19:57+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：1,370.16kb] [文件加载：47]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting '('[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php:32]
+---------------------------------------------------------------
+[ 2017-11-27T08:20:05+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,370.14kb] [文件加载：47]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting '('[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php:32]
+---------------------------------------------------------------
+[ 2017-11-27T08:20:24+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：1.621093s][吞吐率：0.62req/s] [内存消耗：2,622.02kb] [文件加载：130]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T08:35:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：2,409.34kb] [文件加载：104]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Invalid request.[G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Server\Guard.php:346]
+---------------------------------------------------------------
+[ 2017-11-27T08:35:29+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,410.26kb] [文件加载：104]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Invalid request.[G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Server\Guard.php:346]
+---------------------------------------------------------------
+[ 2017-11-27T08:47:38+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：2,123.25kb] [文件加载：105]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\admin\controller\Broadcast' not found[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php:42]
+---------------------------------------------------------------
+[ 2017-11-27T08:50:48+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,411.21kb] [文件加载：104]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]Invalid request.[G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Server\Guard.php:346]
+---------------------------------------------------------------
+[ 2017-11-27T09:03:01+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmain
+[ info ] 127.0.0.1:86/admin/index/createmain [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：1,568.67kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmain',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:03:12+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.174010s][吞吐率：5.75req/s] [内存消耗：1,544.38kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:04:56+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,548.12kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:04:58+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.709041s][吞吐率：1.41req/s] [内存消耗：2,645.84kb] [文件加载：132]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3b97Z5nxnmJFQmmq',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:07:01+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,545.80kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:07:04+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.354020s][吞吐率：2.82req/s] [内存消耗：2,678.30kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '981',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRPM2pxgSM2rhrukU',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '[
+                "type" => "click",
+                "name" => "今日歌曲",
+                "key"  => "V1001_TODAY_MUSIC"
+            ],
+            [
+                "name"       => "菜单",
+                "sub_button" => [
+                    [
+                        "type" => "view",
+                        "name" => "搜索",
+                        "url"  => "http://www.soso.com/"
+                    ],
+                    [
+                        "type" => "view",
+                        "name" => "视频",
+                        "url"  => "http://v.qq.com/"
+                    ],
+                    [
+                        "type" => "click",
+                        "name" => "赞一下我们",
+                        "key" => "V1001_GOOD"
+                    ],
+                ],
+            ],',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40017]invalid button type hint: [ACvu3a0874vr26][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T09:11:50+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,545.80kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:11:52+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.292017s][吞吐率：3.42req/s] [内存消耗：2,677.55kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '851',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryA9nCBDQfuuJ39XIJ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '	
+          "type":"click",
+          "name":"今日歌曲",
+          "key":"V1001_TODAY_MUSIC"
+      },
+      {
+           "name":"菜单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.soso.com/"
+            },
+            {
+                 "type":"miniprogram",
+                 "name":"wxa",
+                 "url":"http://mp.weixin.qq.com",
+                 "appid":"wx286b93c14bbf93aa",
+                 "pagepath":"pages/lunar/index"
+             },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40017]invalid button type hint: [IHKuMA0161vr20][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T09:19:59+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,109.77kb] [文件加载：105]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '851',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryA9nCBDQfuuJ39XIJ',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '	
+          "type":"click",
+          "name":"今日歌曲",
+          "key":"V1001_TODAY_MUSIC"
+      },
+      {
+           "name":"菜单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.soso.com/"
+            },
+            {
+                 "type":"miniprogram",
+                 "name":"wxa",
+                 "url":"http://mp.weixin.qq.com",
+                 "appid":"wx286b93c14bbf93aa",
+                 "pagepath":"pages/lunar/index"
+             },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类型错误: Argument 1 passed to EasyWeChat\Menu\Menu::add() must be of the type array, string given, called in G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php on line 43[G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Menu\Menu.php:67]
+---------------------------------------------------------------
+[ 2017-11-27T09:20:08+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,546.01kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:20:10+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,039.65kb] [文件加载：101]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '851',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDybQf7pF3Au2IqrI',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '	
+          "type":"click",
+          "name":"今日歌曲",
+          "key":"V1001_TODAY_MUSIC"
+      },
+      {
+           "name":"菜单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.soso.com/"
+            },
+            {
+                 "type":"miniprogram",
+                 "name":"wxa",
+                 "url":"http://mp.weixin.qq.com",
+                 "appid":"wx286b93c14bbf93aa",
+                 "pagepath":"pages/lunar/index"
+             },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:20:34+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,039.15kb] [文件加载：101]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '741',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiGRgA8BEuZ9cwJ5j',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '
+     {
+           "name":"菜单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.soso.com/"
+            },
+            {
+                 "type":"miniprogram",
+                 "name":"wxa",
+                 "url":"http://mp.weixin.qq.com",
+                 "appid":"wx286b93c14bbf93aa",
+                 "pagepath":"pages/lunar/index"
+             },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:21:03+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,124.25kb] [文件加载：105]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\admin\controller\Broadcast' not found[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php:51]
+---------------------------------------------------------------
+[ 2017-11-27T09:26:05+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：1,670.98kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:26:12+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,039.69kb] [文件加载：101]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '938',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '
+      {
+           "name":"菜单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.soso.com/"
+            },
+            {
+                 "type":"miniprogram",
+                 "name":"wxa",
+                 "url":"http://mp.weixin.qq.com",
+                 "appid":"wx286b93c14bbf93aa",
+                 "pagepath":"pages/lunar/index"
+             },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:26:20+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,545.80kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:26:41+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.309018s][吞吐率：3.24req/s] [内存消耗：2,678.47kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '1132',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '     {
+          "type":"click",
+          "name":"今日歌曲",
+          "key":"V1001_TODAY_MUSIC"
+      },
+      {
+           "name":"菜单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.soso.com/"
+            },
+            {
+                 "type":"miniprogram",
+                 "name":"wxa",
+                 "url":"http://mp.weixin.qq.com",
+                 "appid":"wx286b93c14bbf93aa",
+                 "pagepath":"pages/lunar/index"
+             },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40017]invalid button type hint: [20oIIA0051vr19][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T09:28:00+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.296017s][吞吐率：3.38req/s] [内存消耗：2,678.47kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '1132',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://127.0.0.1:86',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '     {
+          "type":"click",
+          "name":"今日歌曲",
+          "key":"V1001_TODAY_MUSIC"
+      },
+      {
+           "name":"菜单",
+           "sub_button":[
+           {	
+               "type":"view",
+               "name":"搜索",
+               "url":"http://www.soso.com/"
+            },
+            {
+                 "type":"miniprogram",
+                 "name":"wxa",
+                 "url":"http://mp.weixin.qq.com",
+                 "appid":"wx286b93c14bbf93aa",
+                 "pagepath":"pages/lunar/index"
+             },
+            {
+               "type":"click",
+               "name":"赞一下我们",
+               "key":"V1001_GOOD"
+            }]
+       }',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40017]invalid button type hint: [lN.0TA0130vr18][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T09:28:24+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.287016s][吞吐率：3.48req/s] [内存消耗：2,675.02kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40017]invalid button type hint: [SXf0154vr21][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T09:28:32+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.285017s][吞吐率：3.51req/s] [内存消耗：2,675.02kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40017]invalid button type hint: [Uteywa0162vr21][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T09:28:37+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,064.31kb] [文件加载：101]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:29:02+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,064.63kb] [文件加载：101]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:29:17+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：2,198.77kb] [文件加载：104]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:29:18+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,073.84kb] [文件加载：102]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:29:19+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.292017s][吞吐率：3.42req/s] [内存消耗：2,675.19kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40017]invalid button type hint: [4LHeZa0209vr24][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T09:29:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,073.28kb] [文件加载：102]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:29:32+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,073.91kb] [文件加载：102]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:29:39+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,186.83kb] [文件加载：104]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:35:46+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,545.98kb] [文件加载：52]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:41:11+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：1,701.31kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T09:41:23+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,701.56kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T09:41:24+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,576.55kb] [文件加载：56]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T09:42:13+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,700.19kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T09:42:14+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,069.91kb] [文件加载：102]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:43:44+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,186.83kb] [文件加载：104]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:43:46+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,700.20kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T09:44:38+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,700.61kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T09:44:41+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,575.78kb] [文件加载：56]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T09:44:56+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,069.91kb] [文件加载：102]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:44:57+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,703.16kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: pages[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:105]
+---------------------------------------------------------------
+[ 2017-11-27T09:45:08+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.054004s][吞吐率：18.52req/s] [内存消耗：2,069.91kb] [文件加载：102]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:45:08+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/index
+[ info ] 127.0.0.1:86/admin/index/index [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,069.91kb] [文件加载：102]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T09:45:08+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,700.20kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T09:49:11+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,370.59kb] [文件加载：47]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php:18]
+---------------------------------------------------------------
+[ 2017-11-27T10:57:25+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.775044s][吞吐率：1.29req/s] [内存消耗：2,738.72kb] [文件加载：140]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40007]invalid media_id hint: [81DmoA04951461][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T10:57:42+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.332019s][吞吐率：3.01req/s] [内存消耗：2,734.66kb] [文件加载：140]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40007]invalid media_id hint: [FZZVUA05121461][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T10:58:22+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.326019s][吞吐率：3.07req/s] [内存消耗：2,735.29kb] [文件加载：140]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40007]invalid media_id hint: [4vfQPa05521552][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T10:58:47+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.369021s][吞吐率：2.71req/s] [内存消耗：2,755.15kb] [文件加载：142]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40007]invalid media_id hint: [bIm0576ge20][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T11:00:22+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.327019s][吞吐率：3.06req/s] [内存消耗：2,735.29kb] [文件加载：140]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40007]invalid media_id hint: [Z8auqa06721491][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T11:01:43+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.320018s][吞吐率：3.12req/s] [内存消耗：2,735.29kb] [文件加载：140]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40007]invalid media_id hint: [9U.jza07521538][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T13:54:41+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.637036s][吞吐率：1.57req/s] [内存消耗：2,739.48kb] [文件加载：140]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40007]invalid media_id hint: [rd1JLA01311538][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T13:54:47+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/api
+[ info ] 127.0.0.1:86/admin/index/api [运行时间：0.337020s][吞吐率：2.97req/s] [内存消耗：2,735.29kb] [文件加载：140]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'api',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->api[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40007]invalid media_id hint: [Bdp4ga01371499][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T14:23:56+08:00 ] 0.0.0.0 127.0.0.1 POST /admin/index/docreate
+[ info ] 127.0.0.1:86/admin/index/docreate [运行时间：0.414024s][吞吐率：2.42req/s] [内存消耗：2,679.20kb] [文件加载：136]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'docreate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'content-length' => '1888',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1:86',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'menu' => '[
+            "name"=>"手机型号",
+            "sub_button"=>[
+                [
+                    "type"=>"view",
+                    "name"=>"nova系列",
+                    "url"=>"https://www.vmall.com/list-279"
+                ],[
+                    "type"=>"view",
+                    "name"=>"mate系列",
+                    "url"=>"https://www.vmall.com/list-123"
+                ],[
+                    "type"=>"view",
+                    "name"=>"p系列",
+                    "url"=>"https://www.vmall.com/list-125"
+                ]
+            ]
+        ],[
+            "name"=>"手机商城",
+            "type"=>"view",
+            "url"=>"https://www.vmall.com/"
+        ],[
+            "name"=>"售后服务",
+            "sub_button"=>[
+                [
+                    "type"=>"view",
+                    "name"=>"售后网点",
+                    "url"=>"http://wechat.digi-channel.com/huawei/Service/ServiceCenter"
+                ],[
+                    "type"=>"view",
+                    "name"=>"联系我们",
+                    "url"=>"http://www.huawei.com/cn/contact-us"
+                ]
+            ]
+        ]
+    ]',
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->docreate[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [40017]invalid button type hint: [q88loa0886vr19][G:\php study\WWW\thinkphp\thinkphp\vendor\overtrue\wechat\src\Core\AbstractAPI.php:249]
+---------------------------------------------------------------
+[ 2017-11-27T14:30:39+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/index/createmine
+[ info ] 127.0.0.1:86/admin/index/createmine [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,669.85kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'createmine',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\IndexController->createmine[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\IndexController.php ]
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\index\createmine.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T14:30:41+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,568.62kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\common\model\News' not found[G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php:19]
+---------------------------------------------------------------
+[ 2017-11-27T14:36:11+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.179010s][吞吐率：5.59req/s] [内存消耗：2,476.43kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T14:43:22+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,375.66kb] [文件加载：64]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2017-11-27T14:47:20+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：3.600206s][吞吐率：0.28req/s] [内存消耗：2,425.52kb] [文件加载：68]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.336191s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.133007s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'news.delete_time' in 'where clause'[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-27T14:49:14+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.686096s][吞吐率：0.59req/s] [内存消耗：2,503.21kb] [文件加载：69]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.326076s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.094006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.089005s ]
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:89]
+---------------------------------------------------------------
+[ 2017-11-27T14:49:29+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.303075s][吞吐率：0.77req/s] [内存消耗：2,631.28kb] [文件加载：71]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.947055s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.098005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.091006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.093005s ]
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:106]
+---------------------------------------------------------------
+[ 2017-11-27T14:52:34+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.490086s][吞吐率：0.67req/s] [内存消耗：2,631.05kb] [文件加载：71]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.132065s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.102006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.094005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.096006s ]
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:106]
+---------------------------------------------------------------
+[ 2017-11-27T14:52:52+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.282073s][吞吐率：0.78req/s] [内存消耗：2,629.84kb] [文件加载：71]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.946054s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.091005s ]
+[ error ] [8]未定义变量: pages[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:105]
+---------------------------------------------------------------
+[ 2017-11-27T14:53:31+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.474142s][吞吐率：0.40req/s] [内存消耗：2,592.05kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.125121s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.092005s ]
+---------------------------------------------------------------
+[ 2017-11-27T14:54:43+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.315075s][吞吐率：0.76req/s] [内存消耗：2,631.84kb] [文件加载：71]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.946054s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.093005s ]
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:106]
+---------------------------------------------------------------
+[ 2017-11-27T14:58:11+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.402080s][吞吐率：0.71req/s] [内存消耗：2,505.08kb] [文件加载：69]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.944054s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.099005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.092006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.092005s ]
+[ error ] [8]未定义变量: vo[G:\php study\WWW\thinkphp\thinkphp\runtime\temp\a32f94a9bcfcfab6a9b7b1c55cfb8e11.php:106]
+---------------------------------------------------------------
+[ 2017-11-27T14:59:38+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.534088s][吞吐率：0.65req/s] [内存消耗：2,593.14kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.090063s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.098005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.092006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.094005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.091005s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:03:19+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：3.796217s][吞吐率：0.26req/s] [内存消耗：2,501.72kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.363192s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.097006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.089006s ]
+[ error ] [0]类的属性不存在:app\common\model\News->id[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\Model.php:573]
+---------------------------------------------------------------
+[ 2017-11-27T15:07:11+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.517144s][吞吐率：0.40req/s] [内存消耗：2,470.76kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.077119s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.099006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.094006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.094005s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:08:16+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.358135s][吞吐率：0.42req/s] [内存消耗：2,596.03kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.897109s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.106006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.096005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.096006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.096006s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:08:53+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.554089s][吞吐率：0.64req/s] [内存消耗：2,470.81kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.129064s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.091005s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:09:12+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.370078s][吞吐率：0.73req/s] [内存消耗：2,470.83kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.936054s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.100006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.093005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.092006s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:13:00+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.602091s][吞吐率：0.62req/s] [内存消耗：2,596.78kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.156066s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.100006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.094005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.095006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.093005s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:19:57+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.558089s][吞吐率：0.64req/s] [内存消耗：2,596.67kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.112064s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.102006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.093005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.094005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.092005s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:19:59+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/edit/id/1
+[ info ] 127.0.0.1:86/admin/news/edit/id/1 [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,567.63kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T15:23:22+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.304132s][吞吐率：0.43req/s] [内存消耗：2,596.67kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.876107s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.096006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.089005s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:26:48+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.563090s][吞吐率：0.64req/s] [内存消耗：2,471.45kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.115064s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.102006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.097006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.095005s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:27:20+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/edit/id/1
+[ info ] 127.0.0.1:86/admin/news/edit/id/1 [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,567.63kb] [文件加载：54]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-27T15:30:22+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.560090s][吞吐率：0.64req/s] [内存消耗：2,596.73kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.107063s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.101005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.101006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.095006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.093005s ]
+---------------------------------------------------------------
+[ 2017-11-27T15:32:27+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.561090s][吞吐率：0.64req/s] [内存消耗：2,471.48kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.125065s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.099005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.092006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.093005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.091005s ]
+---------------------------------------------------------------
+[ 2017-11-27T16:11:31+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.406081s][吞吐率：0.71req/s] [内存消耗：2,596.70kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.958055s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.101006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.096005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.094006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.094005s ]
+---------------------------------------------------------------
+[ 2017-11-27T16:12:09+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.520087s][吞吐率：0.66req/s] [内存消耗：2,471.42kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.099062s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.096005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.088005s ]
+---------------------------------------------------------------
+[ 2017-11-27T16:12:12+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.552089s][吞吐率：0.64req/s] [内存消耗：2,471.42kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.110064s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.102006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.097006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.095005s ]
+---------------------------------------------------------------
+[ 2017-11-27T16:12:37+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：1.812103s][吞吐率：0.55req/s] [内存消耗：2,473.87kb] [文件加载：65]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.386079s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.098006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.089005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.090005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.090005s ]
+---------------------------------------------------------------
+[ 2017-11-27T16:25:51+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.244128s][吞吐率：0.45req/s] [内存消耗：2,599.35kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.168067s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.253014s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.244014s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.239014s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.273016s ]
+---------------------------------------------------------------
+[ 2017-11-27T16:26:07+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/responseMsg
+[ info ] 127.0.0.1:86/admin/news/responseMsg [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,848.43kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'responseMsg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->responseMsg[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for think\Model::get(), called in G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php on line 29 and defined[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\Model.php:1615]
+---------------------------------------------------------------
+[ 2017-11-27T17:28:13+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/index
+[ info ] 127.0.0.1:86/admin/news/index [运行时间：2.222127s][吞吐率：0.45req/s] [内存消耗：2,599.24kb] [文件加载：67]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/index/createmine',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->index[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\php study\WWW\thinkphp\thinkphp\public/../application/admin\view\news\index.html [ array (
+  0 => 'pages',
+  1 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.776102s ] mysql:host=103.59.147.236;dbname=qgwrustt_dzhao;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.100006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.094005s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL LIMIT 0,2 [ RunTime:0.093006s ]
+[ sql ] [ SQL ] SELECT * FROM `news` WHERE `news`.`delete_time` IS NULL [ RunTime:0.093005s ]
+---------------------------------------------------------------
+[ 2017-11-27T17:55:00+08:00 ] 0.0.0.0 127.0.0.1 GET /admin/news/responseMsg/
+[ info ] 127.0.0.1:86/admin/news/responseMsg/ [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,848.43kb] [文件加载：58]
+[ info ] [ LANG ] G:\php study\WWW\thinkphp\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'responseMsg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:86',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.9 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1:86/admin/news/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\NewsController->responseMsg[ G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for think\Model::get(), called in G:\php study\WWW\thinkphp\thinkphp\application\admin\controller\NewsController.php on line 29 and defined[G:\php study\WWW\thinkphp\thinkphp\thinkphp\library\think\Model.php:1615]
