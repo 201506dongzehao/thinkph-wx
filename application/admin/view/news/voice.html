@@ -1,0 +1,33 @@
+
+<div class="crumb-wrap">
+    <div class="crumb-list"><i class="icon-font"></i>
+        <a href="index.html">首页</a>
+        <span class="crumb-step">&gt;
+            </span><a class="crumb-name" href="http://dzhao.wywwwxm.com/thinkphp/public/index.php//admin/news/material">素材管理</a><span class="crumb-step">&gt;
+            </span><span>语音</span></div>
+</div>
+<div class="result-wrap">
+    <div class="result-content">
+        <form action="http://dzhao.wywwwxm.com/thinkphp/public/index.php//admin/news/uploadv" method="post" id="myform" name="myform" enctype="multipart/form-data">
+            <table  width="100%">
+                <tbody>
+                <tr>
+                    <input type="file" name="image" /> <br>
+                    <input type="submit" name="submit" value="本地上传">
+                </tr>
+                <tr>
+                    <hr>
+                </tr>
+                <tr>
+                    {volist name="voice" id="vo" }
+                    <td>
+                        <img src="/{$vo.image}" alt="" height="140px" width="140px"><br>
+                        <i class="icon-font">&#xe037;</i><a href="">删除</a>
+                    </td>
+                    {/volist}
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
